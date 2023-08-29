@@ -21,7 +21,7 @@ const reducer = createReducer(initialState, (builder) => {
     builder.addCase(signIn.pending, (state, action) => {
         state.dataStatus = DataStatus.PENDING
     })
-    builder.addCase(signIn.pending, (state, action) => {
+    builder.addCase(signIn.rejected, (state, action) => {
         state.dataStatus = DataStatus.REJECTED
     })
 })
