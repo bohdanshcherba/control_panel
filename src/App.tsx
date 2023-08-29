@@ -9,7 +9,7 @@ function App() {
             <img src={house_img} alt="" className='w-full h-full object-cover filter blur-md'/>
             <div className='absolute w-full h-full flex items-center justify-center top-0'>
                 <div className="w-[20%] h-[90%] bg-white rounded-xl mr-6 max-lg:hidden">
-                    q
+                    <h1>Side panel</h1>
                 </div>
                 <div className="w-[50%] h-[90%] bg-white rounded-xl max-lg:w-[85%]">
                     q
