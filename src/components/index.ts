@@ -1,2 +1,2 @@
-export * from './SideBar';
-export * from './Header';
+export {SideBar} from './SideBar'
+export {LessonBlock} from './LessonBlock'
